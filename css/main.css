@@ -240,14 +240,23 @@ a {
 }
 
 .advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-bottom: 0;
 }
 
-.advantages-item:not(:first-child) {
+.advantages__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.advantages__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.advantages-logo {
+.advantages__logo {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
@@ -257,7 +266,7 @@ a {
   border-radius: 4px;
 }
 
-.advantages-title {
+.advantages__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -268,7 +277,7 @@ a {
   margin-bottom: 10px;
 }
 
-.advantages-text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

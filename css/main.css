@@ -194,7 +194,14 @@ a {
   margin: 0 auto;
 }
 
-.hero-title {
+.hero__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

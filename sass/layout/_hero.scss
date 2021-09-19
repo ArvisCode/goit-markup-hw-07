@@ -13,22 +13,26 @@
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
-}
 
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
+  &__container {
+    @include container;
+  }
 
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
 
-  margin-bottom: 30px;
-}
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
-.hero__button {
-  @include button;
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    @include button;
+  }
 }

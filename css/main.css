@@ -206,8 +206,8 @@ a {
   margin-bottom: 30px;
 }
 
-.hero-button {
-  font-weight: bold;
+.hero__button {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -221,11 +221,15 @@ a {
   margin: 0 auto;
   padding: 10px 32px;
   display: flex;
+  cursor: none;
+  transition-property: cursor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:focus,
-.hero-button:hover {
+.hero__button:focus, .hero__button:hover {
   cursor: pointer;
+  outline: none;
 }
 
 .advantages {
@@ -593,8 +597,8 @@ a {
   outline: none;
 }
 
-.footer-send-btn {
-  font-weight: bold;
+.footer__btn {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -608,10 +612,13 @@ a {
   margin: 0 auto;
   padding: 10px 32px;
   display: flex;
+  cursor: none;
+  transition-property: cursor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-send-btn:focus,
-.footer-send-btn:hover {
+.footer__btn:focus, .footer__btn:hover {
   cursor: pointer;
   outline: none;
 }
@@ -903,8 +910,8 @@ a {
   text-decoration: underline;
 }
 
-.modal-submit-btn {
-  font-weight: bold;
+.modal__btn {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -924,8 +931,8 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-submit-btn:focus,
-.modal-submit-btn:hover {
+.modal__btn:focus, .modal__btn:hover {
   cursor: pointer;
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */

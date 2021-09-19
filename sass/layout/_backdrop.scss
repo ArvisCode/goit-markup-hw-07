@@ -183,32 +183,6 @@
   text-decoration: underline;
 }
 
-.modal-submit-btn {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: transparent;
-
-  margin: 0 auto;
-  padding: 10px 32px;
-
-  display: flex;
-
-  cursor: none;
-
-  transition-property: cursor;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-submit-btn:focus,
-.modal-submit-btn:hover {
-  cursor: pointer;
+.modal__btn {
+  @include button;
 }

@@ -32,6 +32,7 @@
     &:hover,
     &:focus {
       background-color: var(--accent-color);
+      outline: none;
     }
     &:hover .social__icon,
     &:focus .social__icon {

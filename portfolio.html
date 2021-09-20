@@ -60,169 +60,162 @@
         <h1 class="visually-hidden">Портфолио</h1>
 
         <ul class="filter">
-          <li class="filter-item">
-            <button type="button" class="filter-button">Все</button>
+          <li class="filter__item">
+            <button type="button" class="filter__button">Все</button>
           </li>
-          <li class="filter-item">
-            <button type="button" class="filter-button">Веб-сайты</button>
+          <li class="filter__item">
+            <button type="button" class="filter__button">Веб-сайты</button>
           </li>
-          <li class="filter-item">
-            <button type="button" class="filter-button">Приложения</button>
+          <li class="filter__item">
+            <button type="button" class="filter__button">Приложения</button>
           </li>
-          <li class="filter-item">
-            <button type="button" class="filter-button">Дизайн</button>
+          <li class="filter__item">
+            <button type="button" class="filter__button">Дизайн</button>
           </li>
-          <li class="filter-item">
-            <button type="button" class="filter-button">Маркетинг</button>
+          <li class="filter__item">
+            <button type="button" class="filter__button">Маркетинг</button>
           </li>
         </ul>
 
         <ul class="gallery">
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-1.jpg" alt="Технокряк" width="370"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-1.jpg" alt="Технокряк" width="370"
                   height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
-                  используют
-                  эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов. </p>
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
+                  используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов. </p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Технокряк</h2>
-                <p class="gallery-text">Веб-сайт</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Технокряк</h2>
+                <p class="signboard__text">Веб-сайт</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-2.jpg"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-2.jpg"
                   alt="Постер New Orlean vs Golden Sta" width="370" height="294" />
-                <p class="overlay">Как насчёт скрола при переполнении блока?<br> Как по мне, то работает. <br> И
-                  даже не
-                  очень страшно выглядит. <br> Осталось только поправить дизайн полосы прокрутки на более
-                  аккуратный и
-                  готово. <br> <br> Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="overlay__text"> Технокряк это современная площадка распространения коронавируса. Компании
+                  используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+              </div>
+              <div class="signboard">
+                <h2 class="signboard__name">Постер New Orlean vs Golden Star</h2>
+                <p class="signboard__text">Дизайн</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-3.jpg" alt="Ресторан Seafood" width="370"
+                  height="294" />
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
+                  используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+              </div>
+              <div class="signboard">
+                <h2 class="signboard__name">Ресторан Seafood</h2>
+                <p class="signboard__text">Приложение</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-4.jpg" alt="Проект Prime" width="370"
+                  height="294" />
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
                   используют
                   эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Постер New Orlean vs Golden Star</h2>
-                <p class="gallery-text">Дизайн</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Проект Prime</h2>
+                <p class="signboard__text">Маркетинг</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-3.jpg" alt="Ресторан Seafood" width="370"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-5.jpg" alt="Проект Boxes" width="370"
                   height="294" />
-                <p class="overlay">А вот с центрованием по вертикали нужно что-то думать. display:
-                  flex;
-                  align-items: center; работают, но портят весь скрол </p>
-              </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Ресторан Seafood</h2>
-                <p class="gallery-text">Приложение</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-4.jpg" alt="Проект Prime" width="370"
-                  height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
                   используют
                   эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Проект Prime</h2>
-                <p class="gallery-text">Маркетинг</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Проект Boxes</h2>
+                <p class="signboard__text">Приложение</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-5.jpg" alt="Проект Boxes" width="370"
-                  height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
-                  используют
-                  эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-              </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Проект Boxes</h2>
-                <p class="gallery-text">Приложение</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-6.jpg" alt="Inspiration has no Borders"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-6.jpg" alt="Inspiration has no Borders"
                   width="370" height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
                   используют
                   эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Inspiration has no Borders</h2>
-                <p class="gallery-text">Веб-сайт</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Inspiration has no Borders</h2>
+                <p class="signboard__text">Веб-сайт</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-7.jpg" alt="Издание Limited Edition"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-7.jpg" alt="Издание Limited Edition"
                   width="370" height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
                   используют
                   эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Издание Limited Edition</h2>
-                <p class="gallery-text">Дизайн</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Издание Limited Edition</h2>
+                <p class="signboard__text">Дизайн</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-8.jpg" alt="Проект LAB" width="370"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-8.jpg" alt="Проект LAB" width="370"
                   height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
                   используют
                   эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Проект LAB</h2>
-                <p class="gallery-text">Маркетинг</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Проект LAB</h2>
+                <p class="signboard__text">Маркетинг</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery-item">
-            <a href="" class="gallery-link">
-              <div class="gallery-overlay">
-                <img class="gallery-img" src="./images/portfolio/gallery-img-9.jpg" alt="Growing Business" width="370"
+          <li class="gallery__item">
+            <a href="" class="gallery__link">
+              <div class="gallery__card">
+                <img class="gallery__img" src="./images/portfolio/gallery-img-9.jpg" alt="Growing Business" width="370"
                   height="294" />
-                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                <p class="overlay__text">Технокряк это современная площадка распространения коронавируса. Компании
                   используют
                   эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
               </div>
-              <div class="gallery-div">
-                <h2 class="gallery-name">Growing Business</h2>
-                <p class="gallery-text">Приложение</p>
+              <div class="signboard">
+                <h2 class="signboard__name">Growing Business</h2>
+                <p class="signboard__text">Приложение</p>
               </div>
             </a>
           </li>

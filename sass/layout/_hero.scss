@@ -14,11 +14,7 @@
   padding-bottom: 200px;
   margin: 0 auto;
 
-  &__container {
-    @include container;
-  }
-
-  &__title {
+  .hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -30,9 +26,5 @@
     text-transform: uppercase;
 
     margin-bottom: 30px;
-  }
-
-  &__button {
-    @include button;
   }
 }

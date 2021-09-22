@@ -18,12 +18,12 @@
 
 <body>
   <header class="header">
-    <div class="header__container">
+    <div class="container container--header">
       <a class="logo" lang="en" href="./index.html">Web<span class="logo__span">Studio</span></a>
       <nav class="nav">
-        <ul class="nav-list">
+        <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__link current" href="./index.html">Студия</a>
+            <a class="nav__link nav__link--current" href="./index.html">Студия</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="./portfolio.html">Портфолио</a>
@@ -33,7 +33,7 @@
           </li>
         </ul>
       </nav>
-      <ul class="contact__list">
+      <ul class="contact">
         <li class="contact__item">
           <a class="contact__link" href="mailto:info@devstudio.com">
             <svg class="contact__icon" width="16" height="12">
@@ -54,23 +54,23 @@
 
   <main>
     <section class="hero">
-      <div class="hero__container">
+      <div class="container">
         <h1 class="hero__title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button type="button" class="hero__button" data-modal-open>
+        <button type="button" class="button" data-modal-open>
           Заказать услугу
         </button>
       </div>
     </section>
 
-    <section class="advantages">
-      <div class="advantages__container">
-        <ul class="advantages__list">
+    <section class="section section--advantages">
+      <div class="container">
+        <ul class="advantages">
           <li class="advantages__item">
-            <div class="advantages__logo">
-              <svg class="advantages-icon" width="70" height="70">
+            <div class="advantages__box">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-antenna"></use>
               </svg>
             </div>
@@ -81,8 +81,8 @@
             </p>
           </li>
           <li class="advantages__item">
-            <div class="advantages__logo">
-              <svg class="advantages-icon" width="70" height="70">
+            <div class="advantages__box">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-clock"></use>
               </svg>
             </div>
@@ -93,8 +93,8 @@
             </p>
           </li>
           <li class="advantages__item">
-            <div class="advantages__logo">
-              <svg class="advantages-icon" width="70" height="70">
+            <div class="advantages__box">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-diagram"></use>
               </svg>
             </div>
@@ -105,8 +105,8 @@
             </p>
           </li>
           <li class="advantages__item">
-            <div class="advantages__logo">
-              <svg class="advantages-icon" width="70" height="70">
+            <div class="advantages__box">
+              <svg class="" width="70" height="70">
                 <use href="./images/sprite.svg#icon-astronaut"></use>
               </svg>
             </div>
@@ -120,9 +120,9 @@
       </div>
     </section>
 
-    <section class="work">
-      <div class="work__container">
-        <h2 class="work__title">Чем мы занимаемся</h2>
+    <section class="section work">
+      <div class="container">
+        <h2 class="section__title">Чем мы занимаемся</h2>
 
         <ul class="work__list">
           <li class="work__item">
@@ -143,16 +143,17 @@
       </div>
     </section>
 
-    <section class="team">
-      <div class="team__container">
-        <h2 class="team__title">Наша команда</h2>
-        <ul class="team__list">
-          <li class="card">
+    <section class="section section--background">
+      <div class="container">
+        <h2 class="section__title">Наша команда</h2>
+
+        <ul class="team">
+          <li class="team__item">
             <img src="./images/team/product.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-            <div class="card__signature">
-              <h3 class="card__name">Игорь Демьяненко</h3>
-              <p class="card__text" lang="en">Product Designer</p>
-              <ul class="social__list">
+            <div class="team__box">
+              <h3 class="team__title">Игорь Демьяненко</h3>
+              <p class="team__text" lang="en">Product Designer</p>
+              <ul class="social">
                 <li class="social__item">
                   <a class="social__link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <svg class="social__icon" width="20" height="20">
@@ -184,12 +185,12 @@
               </ul>
             </div>
           </li>
-          <li class="card">
+          <li class="team__item">
             <img src="./images/team/developer.jpg" alt="Ольга Репина" width="270" height="260" />
-            <div class="card__signature">
-              <h3 class="card__name">Ольга Репина</h3>
-              <p class="card__text" lang="en">Frontend Developer</p>
-              <ul class="social__list">
+            <div class="team__box">
+              <h3 class="team__title">Ольга Репина</h3>
+              <p class="team__text" lang="en">Frontend Developer</p>
+              <ul class="social">
                 <li class="social__item">
                   <a class="social__link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <svg class="social__icon" width="20" height="20">
@@ -221,12 +222,12 @@
               </ul>
             </div>
           </li>
-          <li class="card">
+          <li class="team__item">
             <img src="./images/team/marketing.jpg" alt="Николай Тарасов" width="270" height="260" />
-            <div class="card__signature">
-              <h3 class="card__name">Николай Тарасов</h3>
-              <p class="card__text" lang="en">Marketing</p>
-              <ul class="social__list">
+            <div class="team__box">
+              <h3 class="team__title">Николай Тарасов</h3>
+              <p class="team__text" lang="en">Marketing</p>
+              <ul class="social">
                 <li class="social__item">
                   <a class="social__link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <svg class="social__icon" width="20" height="20">
@@ -258,12 +259,12 @@
               </ul>
             </div>
           </li>
-          <li class="card">
+          <li class="team__item">
             <img src="./images/team/designer.jpg" alt="Михаил Ермаков" width="270" height="260" />
-            <div class="card__signature">
-              <h3 class="card__name">Михаил Ермаков</h3>
-              <p class="card__text" lang="en">UI Designer</p>
-              <ul class="social__list">
+            <div class="team__box">
+              <h3 class="team__title">Михаил Ермаков</h3>
+              <p class="team__text" lang="en">UI Designer</p>
+              <ul class="social">
                 <li class="social__item">
                   <a class="social__link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <svg class="social__icon" width="20" height="20">
@@ -299,10 +300,10 @@
       </div>
     </section>
 
-    <section class="clients">
-      <div class="clients__container">
-        <h2 class="clients__title">Постоянные клиенты</h2>
-        <ul class="client__list">
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Постоянные клиенты</h2>
+        <ul class="clients">
           <li class="client__item">
             <a class="client__link" href="">
               <svg class="client__icon" width="106" height="60">
@@ -351,7 +352,7 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__container">
+    <div class="container container--footer">
 
       <div>
         <a class="logo" lang="en" href="./index.html">Web<span class="logo__span--footer">Studio</span></a>
@@ -373,7 +374,7 @@
 
       <div class="social--footer">
         <p class="social__title">присоединяйтесь</p>
-        <ul class="social__list">
+        <ul class="social">
           <li class="social__item">
             <a class="social__link social__link--footer" href="https://www.instagram.com" target="_blank"
               rel="noopener noreferrer">
@@ -415,7 +416,7 @@
           <label>
             <input type="email" name="send-input" class="send__input" placeholder="E-mail" required>
           </label>
-          <button type="submit" class="send__btn">Подписаться&nbsp;
+          <button type="submit" class="button">Подписаться&nbsp;
             <svg class="send__icon" width="20" height="20">
               <use href="./images/sprite.svg#icon-send"></use>
             </svg>
@@ -476,7 +477,7 @@
           </label>
         </div>
 
-        <button type="submit" class="modal__btn">Отправить</button>
+        <button type="submit" class="button">Отправить</button>
 
       </form>
 

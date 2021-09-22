@@ -1,4 +1,4 @@
-@mixin button {
+.button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -29,7 +29,7 @@
   }
 }
 
-@mixin filter-btn {
+.filter__button {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;

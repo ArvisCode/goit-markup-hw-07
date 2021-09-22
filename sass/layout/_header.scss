@@ -2,8 +2,7 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header__container {
-  @include container;
+.container--header {
   display: flex;
   align-items: center;
 }
@@ -11,11 +10,11 @@
 .nav {
   margin-left: 93px;
 
-  &__item:not(:first-child) {
+  .nav__item:not(:first-child) {
     margin-left: 50px;
   }
 
-  &__link {
+  .nav__link {
     padding: 32px 0;
 
     font-weight: 500;
@@ -35,7 +34,7 @@
   }
 }
 
-.current {
+.nav__link--current {
   color: var(--accent-color);
   position: relative;
 
@@ -52,45 +51,45 @@
   }
 }
 
-.contact__item:not(:first-child) {
-  margin-left: 50px;
-}
+.contact {
+  margin-left: auto;
 
-.contact__link {
-  padding: 32px 0;
+  .contact__item:not(:first-child) {
+    margin-left: 50px;
+  }
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--contact-link-color);
+  .contact__link {
+    padding: 32px 0;
 
-  display: flex;
-  align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--contact-link-color);
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
 
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-    & .contact__icon {
-      fill: var(--accent-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      & .contact__icon {
+        fill: var(--accent-color);
+      }
     }
   }
-}
 
-.contact__list {
-  margin-left: auto;
-}
+  .contact__icon {
+    margin-right: 10px;
 
-.contact__icon {
-  margin-right: 10px;
+    fill: var(--contact-link-color);
 
-  fill: var(--contact-link-color);
-
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

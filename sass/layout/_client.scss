@@ -1,16 +1,4 @@
 .clients {
-  @include section;
-
-  &__container {
-    @include container;
-  }
-
-  &__title {
-    @include section__title;
-  }
-}
-
-.client__list {
   display: flex;
 }
 

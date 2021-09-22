@@ -1,7 +1,8 @@
 h1,
 h2,
 h3,
-p {
+p,
+a {
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -13,16 +14,9 @@ img {
   height: auto;
 }
 
-ul,
-li {
+ul {
+  padding: 0;
   margin: 0;
   list-style: none;
-}
-
-ul {
   display: flex;
-}
-
-a {
-  text-decoration: none;
 }
